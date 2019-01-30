@@ -11,5 +11,7 @@ class Author
   def posts 
     @posts = posts
     posts << @posts 
-    @@post_count +=1
+    @@post_count +=1 
+  end
+  
 end
