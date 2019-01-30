@@ -9,9 +9,7 @@ class Author
   end
   
   def posts 
-    @posts = posts
-    posts << @posts 
-    @@post_count +=1 
+    @posts 
   end
   
 end
