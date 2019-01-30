@@ -5,9 +5,12 @@ class Post
  
   def initialize(title)
     @title = title
-    @@posts <<
+    @@posts << self 
   end
   
+  def self.all 
+    @@posts
+  end
   
   def author_name
     self.author ? self.author.name : nil
